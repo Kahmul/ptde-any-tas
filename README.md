@@ -1,2 +1,3 @@
-# ptde-any-tas
-DS1 PTDE Any% TAS
+# DS1 PTDE Any% TAS
+
+TAS of PTDE Any% as of September 2026.
