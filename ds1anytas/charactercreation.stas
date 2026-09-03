@@ -1,0 +1,86 @@
+import "std/ds1"
+
+
+; Creates a new Cleric character with Black Firebombs. Starts from main menu with Load Game highlighted.
+fn charactercreation() {
+    up()
+    a()
+    wait 51
+    a()
+    wait 1
+    a()
+
+    ; Name TAS
+
+    wait 6
+    key_down("shift")
+    hold_key("t", 2)
+    hold_key("a", 2)
+    hold_key("s", 2)
+    key_up("shift")
+    hold_key("enter", 2)
+
+    ; Gender Male
+
+    wait 1
+    a_hold(2)
+    wait 1
+    a_hold(2)
+
+    ; Class Cleric
+
+    wait 1
+    a_hold(2)
+    up_hold(2)
+    wait 1
+    up_hold(2)
+    a_hold(2)
+
+    ; Gift Black Firebombs
+
+    wait 1
+    a_hold(2)
+    down_hold(2)
+    wait 1
+    down_hold(2)
+    a_hold(2)
+
+    ; Very Slim
+
+    wait 1
+    a_hold(2)
+    down_hold(2)
+    wait 1
+    down_hold(2)
+    a_hold(2)
+
+    ; Default Face Color Hair
+
+    wait 1
+    a_hold(2)
+    wait 1
+    a_hold(2)
+    wait 1
+    a_hold(2)
+    wait 1
+    a_hold(2)
+    wait 1
+    a_hold(2)
+    wait 1
+    a_hold(2)
+
+    ; Accept
+
+    wait 1
+    a_hold(2)
+    wait 1
+    left_hold(2)
+    wait 1
+    a_hold(2)
+}
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+import "std/ds1"
+import "ds1anytas/charactercreation"
+
+nothing
+wait 30
+charactercreation()
