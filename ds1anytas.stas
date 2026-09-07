@@ -1,6 +1,8 @@
 import "std/ds1"
 import "ds1anytas/charactercreation"
+import "ds1anytas/asylum"
 
 nothing
 wait 30
 charactercreation()
+asylum()

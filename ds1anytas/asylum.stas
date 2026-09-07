@@ -1,0 +1,167 @@
+import "std/ds1"
+
+
+fn asylum() {
+    await cutscene
+    wait 1
+    start()
+    await no_cutscene
+    wait 1
+    await cutscene
+    wait 1
+    start()
+    ;nothing
+    ;wait 30
+    ;load_character()
+    await ingame
+    wait 2
+    right_stick_hold(220, 1, 5)
+    wait 1
+
+    ; equip hilt in left hand, unequip armor
+    open_equipment()
+    wait 1
+    down()
+    a()
+    wait 2
+    a()
+    wait 2
+    down()
+    right()
+    x()
+    right()
+    x()
+    right()
+    x()
+    start()
+    wait 1
+
+    ; open cell door
+    left_stick(0, 1)
+    wait 10
+    tas_sprint_start(0, 2)
+    wait 10
+    a()
+    right_stick_hold(270, 0.9, 10)
+    wait 9
+    a()
+    wait 29
+    a()
+    wait 2
+    a()
+    
+    ; corridor to ladder
+    wait 41
+    tas_sprint_start(0, 24)
+    b_release()
+    wait 9
+    tas_sprint_start(0, 5)
+    right_stick_hold(90, 1, 10)
+    left_stick(0, 0)
+    right_stick_hold(90, 1, 1)
+    left_stick(0, 1)
+    wait 1
+    l1()
+    tas_sprint(0, 2)
+    right_stick_hold(270, 1, 8)
+    wait 2
+    left_stick(0, 0)
+    wait 1
+    left_stick(0, 1)
+    wait 1
+    l1()
+    tas_sprint(0, 1)
+    wait 5
+    right_stick(90, 1)
+    wait 5
+    left_stick(0, 0)
+    wait 1
+    left_stick(0, 1)
+    wait 1
+    l1()
+    wait 7
+    right_stick(90, 0.8)
+    wait 1
+    right_stick(0, 0)
+    wait 2
+    left_stick(0, 0)
+    wait 1
+    left_stick(0, 1)
+    wait 1
+    l1()
+    tas_sprint(0, 3)
+    wait 10
+    a()
+    
+    ; ladder to Asylum Demon door
+    wait 161
+    right_stick_hold(110, 1, 17)
+    tas_sprint_start(0, 2)
+    wait 6
+    right_stick_hold(270, 1, 4)
+    left_stick(0, 0)
+    right_stick_hold(270, 1, 1)
+    left_stick(0, 1)
+    right_stick(270, 1)
+    l1()
+    wait 2
+    right_stick_hold(270, 0.8, 1)
+    wait 7
+    left_stick(0, 0)
+    wait 1
+    left_stick(0, 1)
+    wait 1
+    l1()
+    tas_sprint(0, 9)
+    wait 15
+    a()
+    wait 10
+    right_stick_hold(230, 1, 4)
+    b_release()
+    wait 190
+    b()
+    wait 21
+    b()
+    wait 21
+    b()
+    wait 21
+    left_stick(45, 1)
+    x()
+    right_stick_hold(0, 1, 5)
+    wait 53
+    x()
+    wait 58
+    x()
+    wait 52
+    left_stick(340, 1)
+    wait 1
+    b()
+    wait 21
+    left_stick(70, 1)
+    x()
+    wait 58
+    x()
+    wait 53
+    right_stick_hold(220, 1, 5)
+    wait 5
+    tas_sprint_start(0, 2)
+    b_release()
+    wait 1
+    b()
+    wait 21
+    b_press()
+    wait 10
+    tas_sprint(0, 2)
+    right_stick(250, 0.7)
+    tas_sprint(0, 4)
+    right_stick_neutral()
+    tas_sprint(0, 3)
+    
+    wait 30
+    left_stick_neutral()
+    right_stick_neutral()
+    b_release()
+    wait 30
+    nothing
+}
+

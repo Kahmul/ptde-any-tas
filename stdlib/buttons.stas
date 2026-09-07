@@ -308,7 +308,7 @@ fn r2_tap() {
 }
 
 fn r2() {
-    l2_tap()
+    r2_tap()
 }
 
 fn r3_press() {
@@ -328,7 +328,7 @@ fn r3_tap() {
 }
 
 fn r3() {
-    l3_tap()
+    r3_tap()
 }
 
 
